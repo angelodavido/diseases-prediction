@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body background="grey">
+    <div class="d-flex justify-content-center align-items-center mt-5">
+
+    
+    <div class="card shadow-sm p-3" style="width: 30rem;">
+
+    <h1 class="text-center h3">Digital Dispensary</h1>
+
+    <p  class="h4">insert the symptopms</p>
+
+    <form method="POST" action="{{url_for('home')}}">
+      <label for="symptom1">Choose a symptom:</label>
+      <select class="form-select" name="symptom1" id="symptom1" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom2">Choose a symptom:</label>
+      <select class="form-select" name="symptom2" id="symptom2" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom3">Choose a symptom:</label>
+      <select class="form-select" name="symptom3" id="symptom3" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom4">Choose a symptom:</label>
+      <select class="form-select" name="symptom4" id="symptom4" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom5">Choose a symptom:</label>
+      <select class="form-select" name="symptom5" id="symptom5" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom6">Choose a symptom:</label>
+      <select class="form-select" name="symptom6" id="symptom6" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom7">Choose a symptom:</label>
+      <select class="form-select" name="symptom7" id="symptom7" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom8">Choose a symptom:</label>
+      <select class="form-select" name="symptom8" id="symptom8" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom9">Choose a symptom:</label>
+      <select class="form-select" name="symptom9" id="symptom9" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom10">Choose a symptom:</label>
+      <select class="form-select" name="symptom10" id="symptom10" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom11">Choose a symptom:</label>
+      <select class="form-select" name="symptom11" id="symptom11" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom12">Choose a symptom:</label>
+      <select class="form-select" name="symptom12" id="symptom12" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom13">Choose a symptom:</label>
+      <select class="form-select" name="symptom13" id="symptom13" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom14">Choose a symptom:</label>
+      <select class="form-select" name="symptom14" id="symptom14" >
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select><br />
+
+      <label for="symptom15">Choose a symptom:</label>
+      <select class="form-select" name="symptom15" id="symptom15">
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom16">Choose a symptom:</label>
+      <select class="form-select" name="symptom16" id="symptom16">
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <label for="symptom17">Choose a symptom:</label>
+      <select class="form-select" name="symptom17" id="symptom17">
+        <option value selected>0</option>
+        {% for key, val in symptoms.items() %}
+          <option value="{{ key }}">{{ val }}</option>
+        {% endfor %}
+      </select>
+      <br />
+
+      <br /><br />
+      <input type="submit" value="predict" class="btn btn-primary"/>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+</div>
+  </body>
+</html>
+
+
